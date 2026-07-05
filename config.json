@@ -1,0 +1,37 @@
+{
+    "version": "1.0",
+    "updateTime": "2026-07-06",
+    "sites": [
+        {
+            "key": "caiji",
+            "name": "采集聚合源",
+            "type": 3,
+            "api": "https://api.caiji.cloud/api.php/provide/vod/",
+            "searchable": 1,
+            "filterable": 1
+        },
+        {
+            "key": "ali",
+            "name": "阿里盘解析",
+            "type": 3,
+            "api": "https://api.caiji.cloud/api.php/provide/vod/aliyun",
+            "searchable": 1,
+            "filterable": 1
+        }
+    ],
+    "parses": [
+        {
+            "name": "通用解析1",
+            "url": "https://jx.xmmeitu.com/?url=",
+            "type": 0
+        },
+        {
+            "name": "通用解析2",
+            "url": "https://api.caiji.cloud/jx.php?url=",
+            "type": 0
+        }
+    ],
+    "lives": [],
+    "spider": ""
+}
+
