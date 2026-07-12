@@ -373,17 +373,17 @@
     {
         "name": "APTV直播",
         "type": 0,
-        "url": "https://gh.927223.xyz/raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+        "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
         "playerType": 2,
-        "epg": "https://gh.927223.xyz/raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml",
+        "epg": "https://gh.927223.xyz/https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml",
         "logo": "https://tb.zbds.top/logo/{name}.png"
     },
     {
         "name": "咪咕直播",
         "type": 0,
-        "url": "https://gh.927223.xyz/raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+        "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
         "playerType": 2,
-        "epg": "https://gh.927223.xyz/raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml",
+        "epg": "https://gh.927223.xyz/https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml",
         "logo": "https://tb.zbds.top/logo/{name}.png"
     },
     {
@@ -391,7 +391,7 @@
         "type": 0,
         "url": "https://iptv-org.github.io/iptv/index.m3u",
         "playerType": 2,
-        "epg": "https://gh.927223.xyz/raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml",
+        "epg": "https://gh.927223.xyz/https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml",
         "logo": "https://tb.zbds.top/logo/{name}.png"
     },
     {
