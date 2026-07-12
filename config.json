@@ -44,6 +44,38 @@
             "quickSearch": 1
         },
         {
+            "key": "Subo",
+            "name": "⚡ 速播资源",
+            "type": 1,
+            "api": "https://suboziyuan.net/api.php/provide/vod/from/subm3u8/",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        {
+            "key": "Wolong",
+            "name": "🐉 卧龙资源",
+            "type": 1,
+            "api": "https://collect.wolongzyw.com/api.php/provide/vod/from/wlm3u8/",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        {
+            "key": "Uku",
+            "name": "🎭 U酷短剧",
+            "type": 1,
+            "api": "https://api.ukuapi.com/api.php/provide/vod/from/ukm3u8/",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        {
+            "key": "Taopian",
+            "name": "🎞️ 淘片经典",
+            "type": 1,
+            "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        {
             "key": "Duanju",
             "name": "🎭全网短剧",
             "type": 3,
