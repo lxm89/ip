@@ -49,24 +49,7 @@
             "type": 1,
             "api": "https://suboziyuan.net/api.php/provide/vod/from/subm3u8/",
             "searchable": 1,
-            "quickSearch": 1,
-            "categories": [
-                "电影",
-                "电视剧",
-                "动漫",
-                "综艺"
-                "动作片",
-                "喜剧片",
-                "爱情片", 
-                "科幻片", 
-                "恐怖片",
-                "剧情片",
-                "国产剧",
-                "港台剧",
-                "日韩剧",
-                "欧美剧",
-                "海外剧"
-             ]     
+            "quickSearch": 1
         },
         {
             "key": "Wolong",
@@ -74,21 +57,7 @@
             "type": 1,
             "api": "https://collect.wolongzyw.com/api.php/provide/vod/from/wlm3u8/",
             "searchable": 1,
-            "quickSearch": 1,
-            "categories": [
-                "电影",
-                "电视剧",
-                "动漫",
-                "综艺",
-                "纪录片",
-                "戏曲",
-                "曲艺",
-                "体育",
-                "国产剧",
-                "港台剧",
-                "日韩剧",
-                "欧美剧"
-             ]
+            "quickSearch": 1            
         },
         {
             "key": "Uku",
@@ -96,19 +65,7 @@
             "type": 1,
             "api": "https://api.ukuapi.com/api.php/provide/vod/from/ukm3u8/",
             "searchable": 1,
-            "quickSearch": 1,
-            "categories": [
-                "短剧",
-                "微短剧",
-                "抖音短剧",
-                "快手短剧",
-                "逆袭",
-                "甜宠",
-                "虐恋",
-                "穿越",
-                "重生",
-                "战神"
-             ]
+            "quickSearch": 1            
         },
         {
             "key": "Taopian",
@@ -116,25 +73,7 @@
             "type": 1,
             "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
             "searchable": 1,
-            "quickSearch": 1,
-            "categories": [
-                "电影",
-                "电视剧",
-                "动漫",
-                "综艺",
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "国产剧",
-                "港台剧",
-                "日韩剧",
-                "欧美剧",
-                "经典电影",
-                "怀旧港片",
-                "老电视剧"
-             ]
+            "quickSearch": 1            
         },
         {
             "key": "Duanju",
