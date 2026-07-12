@@ -247,6 +247,11 @@
             "searchable": 1,
             "changeable": 1,
             "categories": [
+                "国产动漫",
+                "日韩动漫",
+                "国产剧",
+                "韩国剧",
+                "日本剧",
                 "动作片",
                 "喜剧片",
                 "爱情片",
@@ -254,35 +259,24 @@
                 "恐怖片",
                 "剧情片",
                 "战争片",
-                "伦理片",
-                "预告片",
-                "动画片",
-                "记录片",
-                "国产剧",
-                "香港剧",
-                "韩国剧",
-                "欧美剧",
                 "台湾剧",
-                "日本剧",
+                "香港剧",
+                "欧美剧",
+                "记录片",
                 "海外剧",
                 "泰国剧",
                 "大陆综艺",
                 "港台综艺",
                 "日韩综艺",
                 "欧美综艺",
-                "国产动漫",
-                "日韩动漫",
                 "欧美动漫",
                 "港台动漫",
                 "海外动漫",
-                "短剧",
-                "AI漫剧",
                 "体育",
                 "足球",
                 "篮球",
                 "网球",
-                "斯诺克",
-                "电影解说"
+                "斯诺克"
             ]
         },
         {
@@ -349,259 +343,106 @@
         }
     ],
     "parses": [
-        {
-            "name": "xmflv",
-            "type": 0,
-            "url": "https://shturl.cc/l3KoRH4vi5RDZHkE"
-        },
-        {
-            "name": "pouyun",
-            "type": 0,
-            "url": "https://www.pouyun.com/?url="
-        },
-        {
-            "name": "yparse",
-            "type": 0,
-            "url": "https://jx.yparse.com/index.php?url="
-        },
-        {
-            "name": "爱豆解析",
-            "type": 0,
-            "url": "https://shturl.cc/3VHYIuD9XlvXW50tH8"
-        },
-        {
-            "name": "m3u8解析",
-            "type": 1,
-            "url": "https://shturl.cc/vrZ7NWYhjtgNdrRx33LY"
-        }
-    ],
+    {
+        "name": "xmflv",
+        "type": 0,
+        "url": "shturl.cc/l3KoRH4vi5RDZHkE"
+    },
+    {
+        "name": "pouyun",
+        "type": 0,
+        "url": "https://www.pouyun.com/?url="
+    },
+    {
+        "name": "yparse",
+        "type": 0,
+        "url": "https://jx.yparse.com/index.php?url="
+    },
+    {
+        "name": "爱豆解析",
+        "type": 0,
+        "url": "shturl.cc/3VHYIuD9XlvXW50tH8"
+    },
+    {
+        "name": "m3u8解析",
+        "type": 1,
+        "url": "shturl.cc/vrZ7NWYhjtgNdrRx33LY"
+    }
+],
     "lives": [
-        {
-            "name": "APTV直播",
-            "type": 0,
-            "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-            "playerType": 2,
-            "epg": "https://gh.927223.xyz/https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml",
-            "logo": "https://tb.zbds.top/logo/{name}.png"
-        },
-        {
-            "name": "咪咕直播",
-            "type": 0,
-            "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-            "playerType": 2,
-            "epg": "https://gh.927223.xyz/https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml",
-            "logo": "https://tb.zbds.top/logo/{name}.png"
-        }
-       
-    ],
+    {
+        "name": "APTV直播",
+        "type": 0,
+        "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+        "playerType": 2,
+        "epg": "https://gh.927223.xyz/https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml",
+        "logo": "https://tb.zbds.top/logo/{name}.png"
+    },
+    {
+        "name": "咪咕直播",
+        "type": 0,
+        "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+        "playerType": 2,
+        "epg": "https://gh.927223.xyz/https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml",
+        "logo": "https://tb.zbds.top/logo/{name}.png"
+    }
+],
     "recommend": [
-        {
-            "name": "最新更新（按更新时间排序）",
-            "request": {
-                "method": "GET",
-                "url": {
-                    "raw": "https://cj.lziapi.com/api.php/provide/vod/?ac=detail&pg=1&limit=20"
-                }
-            },
-            "response": {
-                "result": "$.list",
-                "data": [
-                    {"key": "name", "value": "vod_name"},
-                    {"key": "pic", "value": "vod_pic"},
-                    {"key": "note", "value": "vod_remarks"},
-                    {"key": "desc", "value": "vod_content"}
-                ]
-            },
-            "expires": "3600"
+    {
+        "name": "最新更新",
+        "request": {
+            "method": "GET",
+            "url": {
+                "raw": "https://cj.lziapi.com/api.php/provide/vod/?ac=detail&ids=&t=&pg=1&limit=20"
+            }
         },
-        {
-            "name": "热门播放榜（按播放量排序）",
-            "request": {
-                "method": "GET",
-                "url": {
-                    "raw": "https://cj.lziapi.com/api.php/provide/vod/?ac=detail&pg=1&od=hits&limit=20"
-                }
-            },
-            "response": {
-                "result": "$.list",
-                "data": [
-                    {"key": "name", "value": "vod_name"},
-                    {"key": "pic", "value": "vod_pic"},
-                    {"key": "note", "value": "vod_remarks"},
-                    {"key": "desc", "value": "vod_content"}
-                ]
-            },
-            "expires": "3600"
+        "response": {
+            "result": "$.list",
+            "data": [
+                {"key": "name", "value": "vod_name"},
+                {"key": "pic", "value": "vod_pic"},
+                {"key": "note", "value": "vod_remarks"},
+                {"key": "desc", "value": "vod_content"}
+            ]
         },
-        {
-            "name": "热门电影榜",
-            "request": {
-                "method": "GET",
-                "url": {
-                    "raw": "https://cj.lziapi.com/api.php/provide/vod/?ac=detail&pg=1&t=1&od=hits&limit=20"
-                }
-            },
-            "response": {
-                "result": "$.list",
-                "data": [
-                    {"key": "name", "value": "vod_name"},
-                    {"key": "pic", "value": "vod_pic"},
-                    {"key": "note", "value": "vod_remarks"},
-                    {"key": "desc", "value": "vod_content"}
-                ]
-            },
-            "expires": "3600"
-        },
-        {
-            "name": "热播电视剧榜",
-            "request": {
-                "method": "GET",
-                "url": {
-                    "raw": "https://cj.lziapi.com/api.php/provide/vod/?ac=detail&pg=1&t=2&od=hits&limit=20"
-                }
-            },
-            "response": {
-                "result": "$.list",
-                "data": [
-                    {"key": "name", "value": "vod_name"},
-                    {"key": "pic", "value": "vod_pic"},
-                    {"key": "note", "value": "vod_remarks"},
-                    {"key": "desc", "value": "vod_content"}
-                ]
-            },
-            "expires": "3600"
-        },
-        {
-            "name": "爆款短剧榜单",
-            "request": {
-                "method": "GET",
-                "url": {
-                    "raw": "https://cj.lziapi.com/api.php/provide/vod/?ac=detail&pg=1&t=短剧&od=hits&limit=20"
-                }
-            },
-            "response": {
-                "result": "$.list",
-                "data": [
-                    {"key": "name", "value": "vod_name"},
-                    {"key": "pic", "value": "vod_pic"},
-                    {"key": "note", "value": "vod_remarks"},
-                    {"key": "desc", "value": "vod_content"}
-                ]
-            },
-            "expires": "3600"
-        },
-        {
-            "name": "动漫排行榜",
-            "request": {
-                "method": "GET",
-                "url": {
-                    "raw": "https://cj.lziapi.com/api.php/provide/vod/?ac=detail&pg=1&t=4&od=hits&limit=20"
-                }
-            },
-            "response": {
-                "result": "$.list",
-                "data": [
-                    {"key": "name", "value": "vod_name"},
-                    {"key": "pic", "value": "vod_pic"},
-                    {"key": "note", "value": "vod_remarks"},
-                    {"key": "desc", "value": "vod_content"}
-                ]
-            },
-            "expires": "3600"
-        },
-        {
-            "name": "综艺排行榜",
-            "request": {
-                "method": "GET",
-                "url": {
-                    "raw": "https://cj.lziapi.com/api.php/provide/vod/?ac=detail&pg=1&t=3&od=hits&limit=20"
-                }
-            },
-            "response": {
-                "result": "$.list",
-                "data": [
-                    {"key": "name", "value": "vod_name"},
-                    {"key": "pic", "value": "vod_pic"},
-                    {"key": "note", "value": "vod_remarks"},
-                    {"key": "desc", "value": "vod_content"}
-                ]
-            },
-            "expires": "3600"
-        },
-        {
-            "name": "站内高分影视榜（9分以上）",
-            "request": {
-                "method": "GET",
-                "url": {
-                    "raw": "https://cj.lziapi.com/api.php/provide/vod/?ac=detail&pg=1&h=9&limit=20"
-                }
-            },
-            "response": {
-                "result": "$.list",
-                "data": [
-                    {"key": "name", "value": "vod_name"},
-                    {"key": "pic", "value": "vod_pic"},
-                    {"key": "note", "value": "vod_remarks"},
-                    {"key": "desc", "value": "vod_content"}
-                ]
-            },
-            "expires": "86400"
-        },
-        {
-            "name": "豆瓣高分独立榜单",
-            "request": {
-                "method": "GET",
-                "url": {
-                    "raw": "https://api.wmdb.tv/api/v1/rank?type=movie&start=0&limit=20"
-                }
-            },
-            "response": {
-                "result": "$.data",
-                "data": [
-                    {"key": "name", "value": "name"},
-                    {"key": "pic", "value": "img"},
-                    {"key": "note", "value": "doubanRating"},
-                    {"key": "desc", "value": "desc"}
-                ]
-            },
-            "expires": "86400"
-        }
-    ],
+        "expires": "86400"
+    }
+],
     "rating": [
-        {
-            "name": "豆瓣评分",
-            "request": {
-                "method": "GET",
-                "url": {
-                    "raw": "https://api.wmdb.tv/api/v1/movie/search?q={name}&limit=1"
-                }
-            },
-            "response": {
-                "result": "$.data[0]",
-                "data": [
-                    {"key": "score", "value": "doubanRating"},
-                    {"key": "douban_id", "value": "doubanId"}
-                ]
+    {
+        "name": "豆瓣评分",
+        "request": {
+            "method": "GET",
+            "url": {
+                "raw": "https://api.wmdb.tv/api/v1/movie/search?q={name}&limit=1"
             }
+        },
+        "response": {
+            "result": "$.data[0]",
+            "data": [
+                {"key": "score", "value": "doubanRating"},
+                {"key": "douban_id", "value": "doubanId"}
+            ]
         }
-    ],
+    }
+],
     "association": [
-        {
-            "name": "资源联想",
-            "request": {
-                "method": "GET",
-                "url": {
-                    "raw": "https://cj.lziapi.com/api.php/provide/vod/?wd={key}&limit=10"
-                }
-            },
-            "response": {
-                "result": "$.list",
-                "data": [
-                    {"key": "name", "value": "vod_name"}
-                ]
+    {
+        "name": "资源联想",
+        "request": {
+            "method": "GET",
+            "url": {
+                "raw": "https://cj.lziapi.com/api.php/provide/vod/?wd={key}&limit=10"
             }
+        },
+        "response": {
+            "result": "$.list",
+            "data": [
+                {"key": "name", "value": "vod_name"}
+            ]
         }
-    ],
+    }
+],
     "flags": [
         "youku",
         "qq",
@@ -787,7 +628,7 @@
         "cnzz.hhttm.top",
         "tp.vinuxhome.com",
         "cnzz.mmstat.com",
-        "shturl.cc/Q64BuJJ",
+        "www.baihuillq.com",
         "s23.cnzz.com",
         "z3.cnzz.com",
         "c.cnzz.com",
@@ -834,6 +675,6 @@
         "vivovip.mmszxc.top",
         "qiu.xixiqiu.com",
         "cdnjs.hnfenxun.com",
-        "shturl.cc/Oivh"
+        "cms.qdwght.com"
     ]
 }
