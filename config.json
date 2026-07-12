@@ -391,15 +391,8 @@
             "playerType": 2,
             "epg": "https://gh.927223.xyz/https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml",
             "logo": "https://tb.zbds.top/logo/{name}.png"
-        },
-        {
-            "name": "自建直播",
-            "type": 0,
-            "url": "https://lxm.ccwu.cc/",
-            "playerType": 2,
-            "epg": "https://gh.927223.xyz/https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml",
-            "logo": "https://tb.zbds.top/logo/{name}.png"
         }
+       
     ],
     "recommend": [
         {
