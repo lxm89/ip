@@ -344,7 +344,7 @@
             "key": "Feifan",
             "name": "🎬非凡影视",
             "type": 0,
-            "api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
+            "api": "https://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
             "searchable": 1,
             "changeable": 1,
             "categories": [
@@ -450,7 +450,7 @@
         "type": 0,
         "url": "https://gh.927223.xyz/https://iptv-org.github.io/iptv/countries/cn.m3u",
         "playerType": 2,
-        "epg": "https://gh.927223.xyz/https://gh.927223.xyz/raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml",
+        "epg": "https://gh.927223.xyz/https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml",
         "logo": "https://tb.zbds.top/logo/{name}.png"
     }  
 ],
@@ -726,7 +726,6 @@
         "s13.cnzz.com",
         "xg.huataisangao.cn",
         "z7.cnzz.com",
-        "xg.huataisangao.cn",
         "z2.cnzz.com",
         "s96.cnzz.com",
         "q11.cnzz.com",
