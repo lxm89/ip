@@ -450,7 +450,7 @@
         "type": 0,
         "url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
         "playerType": 2,
-        "epg": "https://gh.927223.xyz/raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml",
+        "epg": "https://gh.927223.xyz/https://gh.927223.xyz/raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml",
         "logo": "https://tb.zbds.top/logo/{name}.png"
     }  
 ],
